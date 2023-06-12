@@ -1,0 +1,14 @@
+
+:root{
+
+    --my-color:blue;
+    --my-other-color:red;
+}
+
+
+h1{
+    font-size:clamp(1vw,5vw,3vw);
+
+
+    color:var(--m-other-color,var(--m-color, green));
+}
