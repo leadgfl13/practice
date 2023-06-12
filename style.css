@@ -2,10 +2,11 @@ body{
     height:100vh;
     width:100vw;
     margin:0px;
-    background-color:rgb(66, 77, 66);
+    background-color:rgb(118, 138, 118);
     display:flex;
     justify-content:center;
     align-items: center;
+    flex-direction:column;
     
 
     
@@ -17,6 +18,26 @@ body{
     font-size:74px;
     text-underline-position: below,black;
     text-decoration: underline;
-    color:black;
+    color:rgb(11, 18, 48);
 
+}
+
+ul{
+    display:flex;
+    color:rgb(83, 71, 29);
+    flex-direction:row;
+    gap:50px;
+    list-style-type: none;
+    justify-content:space-between;
+    margin-bottom:40px;
+    font-family:'Courier New', Courier, monospace;
+    font-size:20px;
+}
+
+.sub-list{
+    margin-top:40px;
+    justify-content:space-around;
+    gap:10px;
+    font-size:30px;
+    color:rgb(83,71,29);
 }
