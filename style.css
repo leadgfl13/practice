@@ -42,4 +42,25 @@ ul{
     color:rgb(83,71,29);
 }
 
+.header{
+    background-color: white;
+    display:flex;
+    align-items:baseline;
+    padding:.5rem;
+    gap:1rem;
+}
 
+.link{
+    background:none;
+    border:none;
+    text-decoration: none;
+    color:gray;
+    font-family: inherit;
+    font-size: inherit;
+    cursor:pointer;
+    padding:0;
+}
+
+.link:hover{
+    color:black;
+}
