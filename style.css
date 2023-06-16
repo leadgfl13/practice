@@ -61,6 +61,30 @@ ul{
     padding:0;
 }
 
+
+.dropdown{
+    position:relative;
+
+}
+
+.dropdown-menu{
+    opacity:0;
+    position:absolute;
+    left:20px;
+    top:calc(100%+.25rem);
+    background-color:beige;
+    padding:.75rem;
+    border-radius:.25rem;
+    box-shadow:0 5px 15px 0 rgba(0,0,0, .3);
+}
+
+
+.dropdown>.link:focus + .dropdown-menu{
+    opacity:1;
+}
+.dropdown-menu.active{
+    opacity:1;
+}
 .link:hover{
     color:black;
 }
