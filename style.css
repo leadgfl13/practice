@@ -82,7 +82,7 @@ ul{
 }
 
 
-.dropdown >.link:focus + .dropdown-menu{
+.dropdown.active >.link + .dropdown-menu{
     opacity:1;
     transform:translateY(10px);
     pointer-events:auto;
@@ -90,7 +90,7 @@ ul{
 .dropdown-menu.active{
     opacity:1;
 }
-.dropdown > .link:focus,
+.dropdown.active > .link,
 .link:hover{
     color:black;
 }
