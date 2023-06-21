@@ -43,22 +43,24 @@ ul{
 }
 
 .header{
-    background-color: white;
     display:flex;
-    align-items:baseline;
+    justify-content:space-evenly;
+    align-items:space-evenly;
     padding:.5rem;
-    gap:1rem;
+    gap:20px;
+    border-radius:10px;
 }
 
 .link{
     background:none;
     border:none;
     text-decoration: none;
-    color:gray;
+    color:black;
     font-family: inherit;
     font-size: inherit;
     cursor:pointer;
     padding:0;
+    gap:10px;
 }
 
 
