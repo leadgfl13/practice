@@ -99,15 +99,16 @@ ul{
 
 
 .information-grid{
-    display:grid;
-    gap:10rem;
+    font-weight:800;
+    display:flex;
+    gap:1rem;
 }
 
 .dropdown-links{
     display:flex;
     flex-direction:column;
-    gap:25px;
-    font-size:20px;
+    gap:5px;
+    font-size:18px;
 }
 
 a{
