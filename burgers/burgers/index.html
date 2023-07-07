@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger Menu</title>
+    <link rel = "stylesheet" href = "Style.css">
+</head>
+<body>
+    <div class = "head">
+        <h1>Burger-Menu</h1>
+    </div>
+
+    <form action="">
+
+            <fieldset class = "cook">  
+                <legend>Order Name</legend>
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" id = "name"  placeholder="ex: Gary" required>
+                </div>
+            </fieldset>
+            
+
+
+        <fieldset class = "cook">
+            <legend>Cook</legend>
+            <div class = 'choice'>
+                <label for="rare">Rare</label>
+                <input type="radio" id = "rare" name = "cook" value = "rare" required>     
+            </div>
+            <div class = 'choice'>
+                <label for="medium-rare">Medium Rare</label>
+                <input type="radio" id = "medium-rare" name = "cook" value = "medium-rare">
+            </div>
+            <div class = 'choice'>
+                <label for="medium">Medium</label>
+                <input type="radio" id = "medium" name = "cook" value = "medium">
+            </div>
+            <div class = 'choice'>
+                <label for="medium-well">Medium-well</label>
+                <input type="radio" id = "medium-well" name = "cook" value = "medium-well">
+            </div>
+        </fieldset>
+
+        <fieldset class = 'cook'>
+            <legend>Toppings</legend>
+                <div class = 'choice'>
+                    <h3>Cheese</h3>
+                </div>
+                <div class = 'choice'>
+                        <label for="american">American</label>
+                        <input type="radio" id = "american" name = "cheese" value = "american">
+                </div>
+                <div class = 'choice'>
+                    <label for="cheddar">Cheddar</label>
+                    <input type="radio" id = "cheddar" name = "cheese" value = "cheddar">
+            </div>
+            <div class = 'choice'>
+                <h3>Fruits/Veggies</h3>
+            </div>
+            <div class = 'choice'>
+                <label for="onions-raw">Raw onion</label>
+                <input type="checkbox" id = 'onions-raw' name = 'onions-raw' value = 'onions-raw'>
+            </div>
+            <div class = 'choice'>
+                <label for="onions">Sauteed onion</label>
+                <input type="checkbox" id = 'onions' name = 'sauteed' value = 'sauteed-onions'>
+            </div>
+            <div class = 'choice'>
+                <label for="Tomato">Tomato</label>
+                <input type="checkbox" id = 'Tomato' name = 'Tomato' value = 'Tomato'>
+            </div>
+            <div class = 'choice'>
+                <label for="Tomato">Tomato</label>
+                <input type="checkbox" id = 'Tomato' name = 'Tomato' value = 'Tomato'>
+            </div>
+            <div class = 'choice'>
+                <h3>Condiments</h3>
+            </div>
+            <div class = 'choice'>
+                <label for="Ketchup">Ketchup</label>
+                <input type="checkbox" id = 'Ketchup' name = 'Ketchup' value = 'Ketchup'>
+            </div>
+            <div class = 'choice'>
+                <label for="Mustard">Mustard</label>
+                <input type="checkbox" id = 'Mustard' name = 'Mustard' value = 'Mustard'>
+            </div>
+            <div class = 'choice'>
+                <label for="Relish">Relish</label>
+                <input type="checkbox" id = 'Relish' name = 'Relish' value = 'Relish'>
+            </div>
+            <div class="choice">
+                <label for="Burger-Sauce">Burger Sauce</label>
+                <input type="checkbox" id = 'Burger-Sauce' name = 'Burger-Sauce'  value = 'Burger-Sauce'>
+            </div>
+        </fieldset>
+        <fieldset class = 'cook'>
+            <legend>Sides</legend>
+            <div class="choice-span">
+                <label for="Fries">Fries</label>
+                <input type="checkbox"id = 'Fries' name = 'fries' value ='fries'>
+                <label for="Salad">Salad</label>
+                <input type="checkbox"id = 'Salad' name = 'Salad' value ='Salad'>
+                <label for="Bean-salad">Bean Salad</label>
+                <input type="checkbox"id = 'Bean-salad' name = 'Bean-Salad' value ='Bean-Salad'>
+            </div>            
+        </fieldset>
+        
+        <div class = 'button'>
+            <button type = 'submit' class="submit">Submit order</button>
+        </div>
+
+
+
+
+    </form>
+    
+</body>
+</html>
